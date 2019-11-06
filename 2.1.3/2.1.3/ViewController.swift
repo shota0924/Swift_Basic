@@ -10,8 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
-    @IBOutlet weak var RandomLabel: UIImageView!
+    @IBOutlet weak var randomImageView: UIImageView!
     
     var img = UIImage(named: "Image")
     var img1 = UIImage(named:"Image-1")
@@ -25,15 +24,15 @@ class ViewController: UIViewController {
         print(random)
         
         if(random == 0) {
-            RandomLabel.image = img
+            randomImageView.image = img
         } else if (random == 1) {
-            RandomLabel.image = img1
+            randomImageView.image = img1
         } else if (random == 2) {
-            RandomLabel.image = img2
+            randomImageView.image = img2
         } else if (random == 3) {
-            RandomLabel.image = img3
+            randomImageView.image = img3
         } else if (random == 4) {
-            RandomLabel.image = img4
+            randomImageView.image = img4
             
         }
         
