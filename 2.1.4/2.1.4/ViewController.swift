@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBAction func AlertViewButton(_ sender: Any) {
+    @IBAction func tappedAlertViewButton(_ sender: Any) {
         
         
         let alert: UIAlertController = UIAlertController(title: "", message: "", preferredStyle:  UIAlertController.Style.alert)
