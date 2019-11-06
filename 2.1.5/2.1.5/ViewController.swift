@@ -10,19 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBAction func ActionSheet(_ sender: Any) {
+    @IBAction func tappedActionSheet(_ sender: Any) {
         
         let alertSheet = UIAlertController(title: "マイページに移動", message: "選択してください", preferredStyle: UIAlertController.Style.actionSheet)
 
-             
         let action1 = UIAlertAction(title: "twitter", style: UIAlertAction.Style.default, handler: {
                   (action: UIAlertAction!) in
+            print("twitter")
               })
         let action2 = UIAlertAction(title: "facebook", style: UIAlertAction.Style.default, handler: {
             (action: UIAlertAction!) in
+            print("facebook")
         })
         let action3 = UIAlertAction(title: "LINE", style: UIAlertAction.Style.default, handler: {
                (action: UIAlertAction!) in
+            print("LINE")
            })
         
         alertSheet.addAction(action1)
