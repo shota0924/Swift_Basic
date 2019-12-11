@@ -8,6 +8,9 @@
 
 import UIKit
 
+
+
+
 class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource{
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
          return 1
@@ -20,10 +23,11 @@ class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSour
     @IBOutlet weak var foodLabel: UILabel!
     let foodList = ["焼肉","寿司","ラーメン","パスタ","ピザ"]
     
-    
+    @IBAction func pickerOutButton(_ sender: Any) {
+        
+    }
     
     @IBOutlet weak var foodPicker: UIPickerView!
-    
     @IBAction func hiddenButton(_ sender: Any) {
         
     }
@@ -35,8 +39,6 @@ class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSour
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
            return foodList[row]
        }
-       
-       
        // pickerが選択された際に呼ばれるデリゲートメソッド.
        func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
            foodLabel.text = foodList [row]
