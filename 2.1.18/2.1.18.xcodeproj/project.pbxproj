@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2059A39E23A35A710004BD70 /* NextPages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2059A39D23A35A710004BD70 /* NextPages.storyboard */; };
+		2059A3A023A35DCE0004BD70 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2059A39F23A35DCE0004BD70 /* Default-568h@2x.png */; };
 		20D67C7D2396A68000F31452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D67C7C2396A68000F31452 /* AppDelegate.swift */; };
 		20D67C7F2396A68000F31452 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D67C7E2396A68000F31452 /* SceneDelegate.swift */; };
 		20D67C812396A68000F31452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D67C802396A68000F31452 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2059A39D23A35A710004BD70 /* NextPages.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NextPages.storyboard; sourceTree = "<group>"; };
+		2059A39F23A35DCE0004BD70 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		20D67C792396A68000F31452 /* 2.1.18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2.1.18.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D67C7C2396A68000F31452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20D67C7E2396A68000F31452 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +44,7 @@
 		20D67C702396A68000F31452 = {
 			isa = PBXGroup;
 			children = (
+				2059A39F23A35DCE0004BD70 /* Default-568h@2x.png */,
 				20D67C7B2396A68000F31452 /* 2.1.18 */,
 				20D67C7A2396A68000F31452 /* Products */,
 			);
@@ -60,6 +65,7 @@
 				20D67C7E2396A68000F31452 /* SceneDelegate.swift */,
 				20D67C802396A68000F31452 /* ViewController.swift */,
 				20D67C822396A68000F31452 /* Main.storyboard */,
+				2059A39D23A35A710004BD70 /* NextPages.storyboard */,
 				20D67C852396A68200F31452 /* Assets.xcassets */,
 				20D67C872396A68200F31452 /* LaunchScreen.storyboard */,
 				20D67C8A2396A68200F31452 /* Info.plist */,
@@ -127,6 +133,8 @@
 			files = (
 				20D67C892396A68200F31452 /* LaunchScreen.storyboard in Resources */,
 				20D67C862396A68200F31452 /* Assets.xcassets in Resources */,
+				2059A39E23A35A710004BD70 /* NextPages.storyboard in Resources */,
+				2059A3A023A35DCE0004BD70 /* Default-568h@2x.png in Resources */,
 				20D67C842396A68000F31452 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SCAA56T24T;
-				INFOPLIST_FILE = 2.3.2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/2.1.18/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SCAA56T24T;
-				INFOPLIST_FILE = 2.3.2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/2.1.18/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
