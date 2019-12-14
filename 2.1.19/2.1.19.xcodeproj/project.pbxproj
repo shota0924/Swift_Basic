@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2059A3A423A51FA60004BD70 /* NextPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2059A3A323A51FA60004BD70 /* NextPage.storyboard */; };
+		2059A3A623A51FC80004BD70 /* NextPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2059A3A523A51FC80004BD70 /* NextPage.swift */; };
 		20D67CBD2396C50E00F31452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D67CBC2396C50E00F31452 /* AppDelegate.swift */; };
 		20D67CBF2396C50E00F31452 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D67CBE2396C50E00F31452 /* SceneDelegate.swift */; };
 		20D67CC12396C50E00F31452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D67CC02396C50E00F31452 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2059A3A323A51FA60004BD70 /* NextPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NextPage.storyboard; sourceTree = "<group>"; };
+		2059A3A523A51FC80004BD70 /* NextPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPage.swift; sourceTree = "<group>"; };
 		20D67CB92396C50E00F31452 /* 2.1.19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2.1.19.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D67CBC2396C50E00F31452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20D67CBE2396C50E00F31452 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				20D67CBE2396C50E00F31452 /* SceneDelegate.swift */,
 				20D67CC02396C50E00F31452 /* ViewController.swift */,
 				20D67CC22396C50E00F31452 /* Main.storyboard */,
+				2059A3A523A51FC80004BD70 /* NextPage.swift */,
+				2059A3A323A51FA60004BD70 /* NextPage.storyboard */,
 				20D67CC52396C50F00F31452 /* Assets.xcassets */,
 				20D67CC72396C50F00F31452 /* LaunchScreen.storyboard */,
 				20D67CCA2396C50F00F31452 /* Info.plist */,
@@ -127,6 +133,7 @@
 			files = (
 				20D67CC92396C50F00F31452 /* LaunchScreen.storyboard in Resources */,
 				20D67CC62396C50F00F31452 /* Assets.xcassets in Resources */,
+				2059A3A423A51FA60004BD70 /* NextPage.storyboard in Resources */,
 				20D67CC42396C50E00F31452 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20D67CC12396C50E00F31452 /* ViewController.swift in Sources */,
+				2059A3A623A51FC80004BD70 /* NextPage.swift in Sources */,
 				20D67CBD2396C50E00F31452 /* AppDelegate.swift in Sources */,
 				20D67CBF2396C50E00F31452 /* SceneDelegate.swift in Sources */,
 			);

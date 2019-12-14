@@ -7,43 +7,32 @@
 //
 
 import UIKit
-
-class ViewController: UIViewController {
-
-    @IBOutlet weak var textField: UITextField!
+ 
+class FirstViewController: UIViewController {
+ 
     
-    
+    @IBOutlet weak var textField1: UITextField!
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     
-            if segue.identifier == "toView2" {
-     
-                let nextView = segue.destination as! View2ViewController
-     
-                nextView.argString = textField.text!
-            }
-        }
-}
-    
-   class View2ViewController: UIViewController {
-    
-       var argString = ""
-
-    @IBOutlet weak var label: UILabel!
-    
-     override func viewDidLoad() {
-            super.viewDidLoad()
-     
-            label.text = argString
-        
-    }
-    
-    @IBAction func buckButton(_ sender: Any) {
-         self.dismiss(animated: true, completion: nil)
+ 
+    // goView12ボタン押下時の処理
+    @IBAction func goNextViewButton(_ sender: Any) {
+   
+        // storyboardのインスタンス取得
+        let storyboard: UIStoryboard = self.storyboard!
+ 
+        // 遷移先ViewControllerのインスタンス取得
+        let nextView = storyboard.instantiateViewController(withIdentifier: "Next") as! NextPageController
+ 
+        // ①値の設定
+        nextView.argString = textField1.text!
+ 
+        // 画面遷移
+        self.present(nextView, animated: true, completion: nil)
     }
 }
+ 
 
 
