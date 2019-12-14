@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,7 +19,7 @@
                                 <rect key="frame" x="161" y="408" width="92" height="80"/>
                                 <state key="normal" title="次へ"/>
                                 <connections>
-                                    <segue destination="bY1-xT-n4w" kind="show" id="dZ9-Od-CEF"/>
+                                    <segue destination="Tcw-SC-LaX" kind="show" id="s5S-Op-Y6q"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -37,39 +37,15 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="7hF-d8-cXX">
+        <!--NextPages-->
+        <scene sceneID="yeF-25-mzz">
             <objects>
-                <viewController id="bY1-xT-n4w" customClass="ViewController" customModule="__1_17" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="u3W-9h-wOW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CBv-5M-qDz">
-                                <rect key="frame" x="171" y="394" width="72" height="54"/>
-                                <state key="normal" title="戻る"/>
-                                <connections>
-                                    <action selector="backButtonAct:" destination="bY1-xT-n4w" eventType="touchUpInside" id="h77-5W-BUq"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="CBv-5M-qDz" firstAttribute="leading" secondItem="YtA-P5-cFc" secondAttribute="leading" constant="171" id="7Zz-zL-IsF"/>
-                            <constraint firstItem="CBv-5M-qDz" firstAttribute="top" secondItem="YtA-P5-cFc" secondAttribute="top" constant="394" id="Kgk-FI-c7q"/>
-                            <constraint firstItem="CBv-5M-qDz" firstAttribute="centerX" secondItem="u3W-9h-wOW" secondAttribute="centerX" id="Wyh-qW-7aU"/>
-                            <constraint firstItem="CBv-5M-qDz" firstAttribute="centerY" secondItem="u3W-9h-wOW" secondAttribute="centerY" id="ynZ-x4-oa4"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="YtA-P5-cFc"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="zWL-Bx-a4B"/>
-                    <connections>
-                        <outlet property="backButton" destination="CBv-5M-qDz" id="zdw-zP-hpl"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fuL-WI-pQh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardIdentifier="NextPages" storyboardName="NextPages" referencedIdentifier="NextPages" id="Tcw-SC-LaX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ChV-7j-xQp"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="STh-8J-Pzv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="956.52173913043487" y="108.48214285714285"/>
+            <point key="canvasLocation" x="798" y="123"/>
         </scene>
     </scenes>
 </document>
