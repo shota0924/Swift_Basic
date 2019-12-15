@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2059A3AC23A675F90004BD70 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		20D67D7F23A0E73800F31452 /* 2.2.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2.2.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D67D8223A0E73800F31452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20D67D8423A0E73800F31452 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,11 +38,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2059A3AB23A675F90004BD70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2059A3AC23A675F90004BD70 /* Cartfile */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		20D67D7623A0E73800F31452 = {
 			isa = PBXGroup;
 			children = (
 				20D67D8123A0E73800F31452 /* 2.2.1 */,
 				20D67D8023A0E73800F31452 /* Products */,
+				2059A3AB23A675F90004BD70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +87,7 @@
 				20D67D7B23A0E73800F31452 /* Sources */,
 				20D67D7C23A0E73800F31452 /* Frameworks */,
 				20D67D7D23A0E73800F31452 /* Resources */,
+				2059A3AD23A676920004BD70 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -132,6 +143,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2059A3AD23A676920004BD70 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/newInputFile",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20D67D7B23A0E73800F31452 /* Sources */ = {
